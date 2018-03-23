@@ -31,3 +31,7 @@
 
 en:
   hello: "Hello world"
+  home: "This is home page"
+  help: "StaticPages#help"
+  call: "if you want to show help. You must click"
+  back: "Come back"
