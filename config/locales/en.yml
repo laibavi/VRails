@@ -31,7 +31,16 @@
 
 en:
   hello: "Hello world"
-  home: "This is home page"
+  home: "This is home page for"
   help: "StaticPages#help"
   call: "if you want to show help. You must click"
   back: "Come back"
+  wellcome: "Welcome to the Sample App"
+  l-home: "Home"
+  l-help: "Help"
+  l-log: "Log in"
+  about: "About"
+  contact: "Contact"
+  news: "News"
+
+
