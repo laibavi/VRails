@@ -4,5 +4,8 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+<<<<<<< HEAD
 
+=======
+>>>>>>> ad47321... finish chap3
 end
