@@ -14,15 +14,14 @@
  *= require_self
  */
 @import "bootstrap";
-
 .lider{
 	flex-direction: row;
-	a{
-		padding-right: 15px;
-		color: #fff;
-		text-decoration: none;
-		&:hover{
-			color: #007bff;
-		}
+a{
+	padding-right: 15px;
+	color: #fff;
+	text-decoration: none;
+  &:hover{
+	 color: #007bff;
 	}
+}
 }
