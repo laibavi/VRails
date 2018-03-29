@@ -5,7 +5,27 @@
       <ul class="nav navbar-nav navbar-right lider">
         <li><%= link_to t("l-home"), home_path %></li>
         <li><%= link_to t("l-help"), help_path %></li>
-        <li><%= link_to t("l-log"), signup_path %></li>
+        <% if logged_in? %>
+          <li><%= link_to t("users"), "#" %></li>
+          <li class="dropdown">
+            <%= link_to "#", class: "dropdown-toggle", id: "dropdownMenuButton",data: {toggle: "dropdown"} do%>
+              <%= t "account" %><b class="caret"></b>
+            <% end %>
+            <!-- <a class="dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown">
+              Account <b class="caret"></b>
+            </a> -->
+            <ul class="dropdown-menu" id="menu" aria-labelledby="dropdownMenuButton">
+              <li><%= link_to "Profile", current_user %></li>
+              <li><%= link_to "Settings", "#" %></li>
+              <li class="divider"></li>
+              <li>
+                <%= link_to t("log_out"), logout_path, method: :delete %>
+              </li>
+            </ul>
+          </li>
+        <% else %>
+         <li><%= link_to t("l-log"), login_path %></li>
+        <% end %>
       </ul>
     </nav>
 </header>
