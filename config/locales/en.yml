@@ -44,4 +44,17 @@ en:
   news: "News"
   users_brand: "Users new"
   user_call: "Find me in app/views/users/new.html.erb"
-
+  user_controler: "Welcome to the Sample App!"
+  user_new: "Sign up"
+  confer: "Confirmation"
+  form-containt: " The form contains"
+  rails-call: "Ruby on Rails Tutorial"
+  success: "Success"
+  not_found: "fails"
+  sign_up: "Sign up now!"
+  update: "Update your profile"
+  confirmation: "confirmation"
+  create: "Creat User"
+  Edit_user: "Edit User"
+  change: "change"
+  save: Save changes
