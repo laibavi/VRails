@@ -104,7 +104,15 @@ aside {
     }
   }
 }
-
+.dropdown-menu{
+  background: $aa !important;
+  position: absolute !important;
+  border: none !important;
+  border-radius: 0 !important;
+  li{
+    padding-left: 7px;
+  }
+}
 .gravatar {
   float: left;
   margin-right: 10px;

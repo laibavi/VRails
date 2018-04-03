@@ -57,4 +57,11 @@ en:
   create: "Creat User"
   Edit_user: "Edit User"
   change: "change"
-  save: Save changes
+  save: "Save changes"
+  users: "Users"
+  log_out: "Log out"
+  log_in: "Log in"
+  home_page: "This is the home page for the"
+  notipass: "Invalid email/password combination"
+  account: "Account"
+  sign_up: "Sign up now!"
