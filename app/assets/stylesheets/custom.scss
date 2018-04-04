@@ -105,7 +105,7 @@ aside {
   }
 }
 .dropdown-menu{
-  background: $aa !important;
+  background: $color_tuna_approx !important;
   position: absolute !important;
   border: none !important;
   border-radius: 0 !important;
@@ -123,7 +123,6 @@ aside {
 }
 
 input, textarea, select, .uneditable-input {
-  border: 1px solid $bb;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
@@ -147,7 +146,19 @@ input {
     color: red;
   }
 }
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
 
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
 footer {
   margin-top: 45px;
   padding-top: 5px;

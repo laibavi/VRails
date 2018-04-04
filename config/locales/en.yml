@@ -65,3 +65,7 @@ en:
   notipass: "Invalid email/password combination"
   account: "Account"
   sign_up: "Sign up now!"
+  session:
+    new:
+      computer_me: "Remember me on this computer"
+      log_in: "Log in"
